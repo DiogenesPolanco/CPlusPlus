@@ -9,7 +9,7 @@ int main()
     //Declaración del arreglo de 10 elementos de tipo int
     int a[10];
 
-    //Inicialización del arreglo
+    //Inicialización del arreglo, aqui tienes que hacer todo el trabajo
     
     //Se debe tomar cada una de las posiciones y asignarles un valor
  
