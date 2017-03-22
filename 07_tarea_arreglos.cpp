@@ -9,6 +9,7 @@ int main(){
 	int a[10]={3,56,4,2,30,12,6,4,73,49};
 	
 	float promedio = 0;
+	
 
 	//Mostrar el valor de la información almacenada en el arreglo 
 	
@@ -20,6 +21,7 @@ int main(){
 		El operador += equivale a escribir: 
 		promedio = promedio + a[j];
 		*/ 
+		promedio += a[j];
 	}
 	
 	/*
