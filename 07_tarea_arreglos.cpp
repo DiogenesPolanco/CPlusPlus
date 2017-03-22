@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-	
+	//Esto no estaba antes.... :P
 	//Declaración e inicialización del arreglo de 10 elementos de tipo int
 	int a[10]={3,56,4,2,30,12,6,4,73,49};
 	
