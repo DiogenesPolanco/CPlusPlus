@@ -22,7 +22,7 @@ int main(){
 	}
 	
 	//Mostrar el valor de la información almacenada en el arreglo
-	cout<< "Posicion"<<setw(10) << "Valor" << endl;
+	cout<< "Posicion: " <<tam << " Valor: " <<a[tam] << endl;
 	
 	for(int j=0; j<tam;j++){
 		
@@ -36,13 +36,18 @@ int main(){
 		El operador += equivale a escribir: 
 		promedio = promedio + a[j];
 		*/
+		
 		promedio += a[j];
+		
+
+		
 	}
 	
 	/*
 	El cálculo del promedio se realiza en la misma línea en la que se 
 	imprime.
 	*/
+	cout << "EL promedio es: " << promedio << endl;
 	  
 	return 0;
 }

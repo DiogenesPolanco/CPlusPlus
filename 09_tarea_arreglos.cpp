@@ -16,8 +16,7 @@ int main(){
 	Número más grande de los ingresados, inicializa con el valor
 	INT_MIN, que es el número más pequeño posible para el tipo de dato entero
 	*/
-	int num_mayor = INT_MIN; 
-	
+	int num_mayor = INT_MIN; 	
 	int frec_alta = INT_MIN; //Número con frecuencia más alta
 	
 	cout<<"Cuantos numeros desea ingresar? ";
@@ -28,18 +27,31 @@ int main(){
 	//Captura de los valores
 	for(int i=0;i < tam; i++){
 		
-		//usar un ciclo do-while para evitar que el usuario ingrese números negativos
-
-		//inicia con do-while
-
+		//usar un ciclo do-while para evitar que el usuario ingrese números negativos		
+		//inicia con do-while		
 		// pedirle al usuario que inserte el valor
-
 		//Los valores se almacenan directamente en una posición del arreglo
-
 		//termina do-while: hacer mientras ingrese un número negativo
-
 		//Encontrar si el número ingresado es el más grande
-		 
+
+		cout << "type a value: " << endl;
+		do{
+			if(tam < 0){
+				cout << "Cannot type nevative numbers";
+				  break;
+			else (a=0;a<tam;a++);
+			cin >> a[tam];
+				  } 
+		} while (a !=-0);
+
+		for (a=0;a>=tam;a++);		 
+	}
+	for (int e=0; e<tam; e++){
+		if (a[tam] > num_mayor){
+			num_mayor= tam;
+		}
+		cout << "EL numero mayor es: " << num_mayor << endl;
+		
 	}
 	
 	/*
